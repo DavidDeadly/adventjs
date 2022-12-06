@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "emitDeclarationOnly": false,
+    "incremental": true,
+    "tsBuildInfoFile": "/home/daviddeadly/Dev/adventjs/22/node_modules/.pnpm/vitest@0.25.4/node_modules/vitest/dist/tsconfig.tmp.tsbuildinfo"
+  },
+  "files": [
+    "./1/solution.js"
+  ]
+}

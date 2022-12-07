@@ -5,10 +5,6 @@ describe("countHours", () => {
   const year = 2022
   const holidays = ['01/06', '04/01', '12/25'] 
 
-  it("must be a function", () => {
-    expectTypeOf(countHours).toBeFunction();
-  })
-
   it("must return a number", () => {
     expect(countHours(year, [])).toBeTypeOf("number");
   })

@@ -3,10 +3,6 @@ import { wrapping } from "./solution";
 
 describe("wrapping", () => {
   const gifts = ['cat', 'game', 'socks'];
-  
-  it("must be a function", () => {
-    expectTypeOf(wrapping).toBeFunction();
-  })
 
   it("must return the same lenght array", () => {
     const execution = wrapping(gifts);
